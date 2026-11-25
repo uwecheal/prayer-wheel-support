@@ -1,0 +1,6 @@
+:root{--ink:#2a0707;--paper:#faf5ea;--card:#fff;--muted:#6b5a4a;--gold:#a8741a}
+@media (prefers-color-scheme: dark){:root{--ink:#f7ecd6;--paper:#1a0505;--card:#2a0b0b;--muted:#c9b79c;--gold:#e5b04a}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 -apple-system,"PingFang SC","Noto Serif Tibetan",system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px;color:var(--gold)}
+.sub{color:var(--muted);margin:0 0 24px}.card{background:var(--card);border-radius:14px;padding:4px 20px 16px;margin:20px 0;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+a{color:var(--gold)}nav{margin-bottom:24px;font-size:15px}nav a{margin-right:16px}.bo{font-family:"Noto Serif Tibetan",serif;font-size:19px}
